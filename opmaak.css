@@ -1,7 +1,141 @@
+/* Padding is extra plaats ín het element, en margin buiten*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
 body {
-    background-image: url(file:///C:/Users/joppe_mp1ev/Documents/Coding/HTML/HTML%20CSS-2/images/SMG2%20Wild%20Glide%20Galaxy.png);
+    background-color: rgb(49, 34, 34);
+    font-family: "Lexend";
+}
+
+article {
+    margin-bottom: 50px;
+    background-color: rgb(255, 194, 120);
+    border: solid rgb(245, 150, 7) 4px;
+    border-radius: 10px;
 }
 
 h1 {
+    font-size: 50px;
     color: red;
+    background-image: url("images/Secret Room with search bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    border: solid 4px black;
+    /* background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de873772-20d9-491e-8eba-bd8755d83893/dejr7j4-dfd9557e-97f3-4c37-aa42-b6f5f6c94832.png/v1/fit/w_828,h_662/54__wild_glide_galaxy_by_shinygastrodon_dejr7j4-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcL2RlODczNzcyLTIwZDktNDkxZS04ZWJhLWJkODc1NWQ4Mzg5M1wvZGVqcjdqNC1kZmQ5NTU3ZS05N2YzLTRjMzctYWE0Mi1iNmY1ZjZjOTQ4MzIucG5nIiwid2lkdGgiOiI8PTIwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dikNM-uypRvcnCT75OpSZE-5gDknhj_1-yMSVkopPDc"); */
+    text-align: center;
+    padding-bottom: 330px;
+}
+
+p {
+    margin-top: 0px;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+div {
+    margin: 0 auto 0 auto;
+    width: 1280px;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul {
+    position: fixed;
+    display: inline;
+}
+li {
+    border: solid 3px black;
+    background-color: gray;
+}
+
+iframe {
+    margin-top: 17px;
+    margin-bottom: 0px;
+    border: solid 3px black;
+}
+
+
+footer {
+    margin-top: 500px;
+    color: white;
+}
+
+.bmargin {
+    margin-bottom: 250px;
+}
+
+img.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    border: solid 4px black;
+}
+
+.center {
+    text-align: center; 
+}
+
+a.menu {
+    /* border: solid 3px black; */
+    padding: right="50px" bottom="30px";
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.rotate {
+    transform:rotate(180deg);
+   -moz-transform:rotate(180deg); /* Firefox */
+   -webkit-transform:rotate(180deg); /* Safari and Chrome */
+   -o-transform:rotate(180deg); /* Opera */
+}
+
+.index {
+  
+}
+
+ .badges {
+
+} 
+
+.projecten {
+
+}
+
+.contact {
+
+}
+
+article#intro {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+article#doos {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+article#contact {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
